@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Meu Portfólio</title>
+	<title>Portfólio Digital</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
@@ -10,7 +10,6 @@
 <body>
 	<header>
 		<h1>Portifólio</h1>
-        <img src="img/undraw_coffee_time_mwfm.svg" alt="">
 		<nav>
 			<ul>
 				<li><a href="#sobre">Sobre</a></li>
@@ -20,34 +19,77 @@
 		</nav>
 	</header>
 
+	<section class="secao">
+		<h1>Heloisa Rodolfo</h1>
+		<h3>Web Developer and UX/UI designer</h3>
+		<img src="#" alt="helolo" class="imagem-apresentacao">
+	</section>
+
 	<main>
-		<section id="sobre">
-			<h2>Sobre mim</h2>
-			<p>Nasci em Florianópolis, tenho 17 anos e sou estudante do Senai, atualmente estou no 3º ano do ensino médio, cursando também o técnico integrado em desenvolvimento de sistemas. Gosto de ler e ir ra praia jogar altinha no tempo livre</p>
-		</section>
-
-		<section id="projetos">
-			<h2>Meus projetos</h2>
-			
-		</section>
-
-		<section id="contato">
-			<h2>Contato</h2>
-			<p>Entre em contato comigo</p>
-            <div class="formulario">
-                <form>
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" placeholder="Digite seu E-mail">
-                    <label for="mensagem">Mensagem:</label>
-                    <textarea id="mensagem" name="mensagem" placeholder="Digite a mensagem que quiser"></textarea>
-                    <button class="button">Enviar</button>
-                </form>
-            </div>
-			
-		</section>
+		<article class="sobre">
+			<div class="sobre_conteudo">
+                <div class="sobre_texto">
+					<h1>About me</h1>
+					<p>Nasci em Florianópolis, tenho 17 anos e sou estudante do Senai, atualmente estou no 3º ano do ensino médio, 
+						cursando também o curso técnico integrado em  Analise e Desenvolvimento de sistemas. 
+						Gosto de ler e ir ra praia jogar altinha no tempo livre</p>
+                </div>
+                <div class="redessociais">
+               <p><a href="https://www.linkedin.com/in/heloisarodolfo/">Linkedin<i class="fa-brands fa-linkedin"></i></p></a>
+               <p><a href="https://github.com/heloisarodolfo">Github<i class="fa-brands fa-github"></i></i></p></a>
+               <p><a href="https://instagram.com/heloisarodolfo?igshid=MmIzYWVlNDQ5Yg==">Instagram<i class="fa-brands fa-instagram"></i></p></a>
+                </div>
+        </div>
+		</article>
 	</main>
+
+	<section class="services">
+		<div aria-label="Navegação secundária" class="cards">
+			<a href="https://www.canva.com/design/DAFnD5Ulq4g/eszvflyBCmQVYd4QJ1dccQ/view?utm_content=DAFnD5Ulq4g&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
+				<div>
+				  <ul>
+					<i class="fa-solid fa-book"></i> 
+					<h2 class="titulo-materia">Ciências da Natureza</h2>
+				  </ul>
+				</div>
+			</a>
+			
+			<a href="https://www.canva.com/design/DAFnHS-6Xgw/ydNzwnOFJyPYDuOfA_RtOw/view?utm_content=DAFnHS-6Xgw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
+				<div>
+					<ul>
+					<i class="fa-solid fa-leaf"></i> 
+					<h2 class="titulo-materia">Linguagens</h2>
+				</ul>
+				</div> 
+				</a>
+			
+				<a href="https://www.canva.com/design/DAFnHj-AxwM/MII3-RzwUrI0xRVSmhdLVg/view?utm_content=DAFnHj-AxwM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
+				<div>
+					<ul>
+						<i class="fa-solid fa-plus-minus"></i></i> 
+						<h2 class="titulo-materia">Matematica</h2>
+					</ul>
+					</div>   
+			  
+				</a>
+				<a href="https://www.canva.com/design/DAFnHZ3oFKw/PGwvqid2U4A7EYpkzRyXsQ/view?utm_content=DAFnHZ3oFKw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
+				<div>
+				<ul>
+					<i class="fa-solid fa-landmark"></i> 
+					<h2 class="titulo-materia">Ciências Humanas</h2>
+				</ul>
+				</div> 
+			</a>
+			<a href="#">
+				<div>
+				<ul>
+					<i class="fa-solid fa-laptop-code"></i> 
+					<h2 class="titulo-materia">Técnico</h2>
+				</ul>
+				</div> 
+			</a>  
+			</div>
+	</section>
 
 	<footer>
 		<p> Desenvolvido por Heloisa Cristina Rodolfo 🥳 &copy; 2023</p>
